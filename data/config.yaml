@@ -1,0 +1,6 @@
+host: "https://www.saucedemo.com"
+user: "standard_user"
+#user: "locked_out_user"
+#user: "problem_user"
+#user: "performance_glitch_user"
+password: "secret_sauce"
