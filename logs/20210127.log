@@ -1,0 +1,36 @@
+2021-01-27 06:09:19,662 [INFO] driver: ************* SETUP *********************
+2021-01-27 06:09:19,663 [INFO] driver: Initializing the browser ...
+2021-01-27 06:09:24,845 [INFO] driver: The browser Initialized
+2021-01-27 06:09:24,846 [INFO] login_to_web: Launching and logging in to https://www.saucedemo.com
+2021-01-27 06:09:29,753 [INFO] login_to_web: Logged in to the platform.
+2021-01-27 06:09:35,099 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/AfterLogin20210127-060934.png
+2021-01-27 06:09:35,099 [INFO] sort_products_by: sorting product by Price (low to high) ...
+2021-01-27 06:09:35,477 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/SortProductsBySelected20210127-060935.png
+2021-01-27 06:09:35,477 [INFO] sort_products_by: Product sorted by Price (low to high).
+2021-01-27 06:09:35,508 [INFO] add_to_cart_by_prod_name: product Sauce Labs Backpack is added to cart.
+2021-01-27 06:09:35,539 [INFO] add_to_cart_by_prod_name: product Sauce Labs Bike Light is added to cart.
+2021-01-27 06:09:35,851 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/ItemsAddedToCart20210127-060935.png
+2021-01-27 06:09:37,852 [INFO] open_shopping_cart: Opening the shopping card.
+2021-01-27 06:09:43,244 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/ShoppingCart20210127-060942.png
+2021-01-27 06:09:43,271 [INFO] test_shopping: Both products are in the cart.
+2021-01-27 06:09:43,303 [INFO] remove_by_prod_name: product Sauce Labs Backpack is removed from cart.
+2021-01-27 06:09:43,579 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/ItemRemoved20210127-060943.png
+2021-01-27 06:09:45,660 [INFO] click_continue_shopping: Continue shopping is clicked.
+2021-01-27 06:09:47,991 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/BackToProducts20210127-060947.png
+2021-01-27 06:09:48,023 [INFO] add_to_cart_by_prod_name: product Sauce Labs Bolt T-Shirt is added to cart.
+2021-01-27 06:09:48,024 [INFO] open_shopping_cart: Opening the shopping card.
+2021-01-27 06:09:53,403 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/UpdatedCart20210127-060953.png
+2021-01-27 06:09:53,490 [INFO] click_checkout: checkout button is clicked.
+2021-01-27 06:09:53,557 [INFO] enter_first_name: first name entered: John
+2021-01-27 06:09:53,615 [INFO] enter_last_name: last name entered: Doe
+2021-01-27 06:09:53,674 [INFO] enter_zip_code: zip code entered: 10010
+2021-01-27 06:09:53,938 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/CheckoutStepOne20210127-060953.png
+2021-01-27 06:09:54,030 [INFO] click_continue: Continue button clicked, continue to checkout.
+2021-01-27 06:09:56,305 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/CheckoutStepTwo20210127-060956.png
+2021-01-27 06:09:56,329 [INFO] test_shopping: Both products are in the cart.
+2021-01-27 06:09:56,330 [INFO] test_shopping: Asserting the total amount: 
+2021-01-27 06:09:56,435 [INFO] click_finish: finish button clicked on checkout.
+2021-01-27 06:09:56,732 [INFO] take_screenshot: screenshot is taken :C:\dev\other\ecommerce/screenshots/CheckoutComplete20210127-060956.png
+2021-01-27 06:09:56,732 [INFO] test_shopping: ********* Shopping test is completed! *********
+2021-01-27 06:09:56,733 [INFO] driver: ***************** TEARDOWN *****************
+2021-01-27 06:09:56,733 [INFO] driver: Closing the browser ...
